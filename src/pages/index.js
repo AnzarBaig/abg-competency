@@ -72,7 +72,7 @@ export default function Home() {
                 key={point.title}
                 onClick={() => handleTitleClick(point.title)}
                 variant={selectedTitle === point.title ? "secondary" : "outline"}
-                className={`h-32 py-4 text-sm whitespace-normal ${selectedTitle === point.title
+                className={`h-32 py-4 md:text-md text-xs whitespace-normal ${selectedTitle === point.title
                   ? "bg-halkaRed hover:bg-halkaRed text-asliRed border border-asliRed font-medium"
                   : "bg-[#F2F2F2] font-light"
                   }`}
