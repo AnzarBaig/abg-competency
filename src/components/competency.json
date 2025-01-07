@@ -1,0 +1,629 @@
+{
+    "competencyFramework": [
+      {
+        "competencyName": "ADAPT AND RESPOND PROACTIVELY",
+        "competencyPoints": [
+          {
+            "title": "Is flexible and embraces change wholeheartedly",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Is curious and takes initiative to explore alternatives to optimize deliverables"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Welcomes change and guides the team to adapt"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Encourages improvements in work practices, and supports their implementation; shares experiences with others to ensure smooth transition"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Identifies opportunities to drive change and enables teams to lead such initiatives"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Proactively prepares the organization for future shifts in business environment"
+              }
+            ]
+          },
+          {
+            "title": "Assesses complex and dynamic situations swiftly, makes sound decisions, and ensures speedy execution with accountability to timelines",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Quickly realigns actions with changing situations while adhering to timelines"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Equips team to prioritize tasks, gathers essential information and makes swift decisions with minimal supervision"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Helps teams to foresee and overcome obstacles; makes informed decisions promptly to ensure timely execution"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Rapidly identifies challenges, leverages organization awareness and makes quick decisions to meet milestones"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Holds self and the leaders accountable for driving execution excellence in a complex and dynamic environment"
+              }
+            ]
+          },
+          {
+            "title": "Seeks and accepts feedback, and responds with a change in attitude and approach to drive impact",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Actively listens to feedback and makes changes to deliver better results"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Seeks feedback from others and makes necessary changes"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Creates a process of gathering and acting on feedback"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Integrates feedback and outside-in perspectives to drive positive impact"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Deeply listens to feedback, continuously learns to up their game and creates positive impact"
+              }
+            ]
+          },
+          {
+            "title": "Approaches setbacks as learning opportunities",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Shows willingness to learn and grow from setbacks"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Maintains an optimistic outlook, reflects on challenges / learnings and shares the same with the team"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Encourage teams to view setbacks as learning opportunities and enables them move forward"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Builds people capability to bounce back from setbacks"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Drives positive personal change to impact people and business"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "competencyName": "COLLABORATE AND PARTNER TO INSPIRE TRUST",
+        "competencyPoints": [
+          {
+            "title": "Values diverse perspectives, engages in difficult conversations with respect and fosters an inclusive workplace culture",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Recognizes and understands different points of view within the team"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Participates in constructive discussions with colleagues, and handles disagreements respectfully"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Facilitates difficult conversations with respect and empathy; considers others' views while making decisions"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Promotes a culture where teams value and engage in discussions based on diverse perspectives"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Drives initiatives that enhance the culture of inclusion in the organization"
+              }
+            ]
+          },
+          {
+            "title": "Promotes transparency by communicating clearly and enhances authenticity by listening actively",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Listens attentively & expresses thoughts and views clearly"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Engages the team and considers their views while making decisions"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Promotes platforms that enable open dialogues and puts effort to understand others' emotions"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Fosters authentic two-way communication across the organization"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Creates organization wide platforms that enable transparent and open communication"
+              }
+            ]
+          },
+          {
+            "title": "Be humble and vulnerable to inspire trust",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Seeks guidance and support when facing challenges"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Accepts mistakes and is open to rectify the same"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Shares personal growth stories with the team, creates opportunities for open discussions about failures and lessons learnt"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Openly acknowledges and shares vulnerabilities; recognizes team members who demonstrate humility and openness"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Actively cultivates trusting relationships on the foundation of humility"
+              }
+            ]
+          },
+          {
+            "title": "Harnesses ecosystem and partnerships to achieve common goals with clear milestones",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Works effectively with the team and actively participates in initiatives"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Collaborates across teams to achieve goals and builds relationships with different stakeholders"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Leads cross-functional teams to co-create solutions; leverages industry networks to achieve common goals"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Leverages network to support innovative projects, regularly reviews the progress to ensure achievement as per milestones"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Spearheads strategic alliances within ABG and across the industry"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "competencyName": "INNOVATE TO GROW AND EXCEL",
+        "competencyPoints": [
+          {
+            "title": "Drives creative and innovative solutions to resolve business and functional challenges",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Actively contributes ideas and attempts multiple ways to tackle work challenges"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Tries new tools and techniques to solve problems and improve outcomes"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Identifies opportunities and introduces new products, services & solutions"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Creates industry first practices, to attain/maintain market leadership"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Takes a bet on path breaking new projects and  drives its successful implementation"
+              }
+            ]
+          },
+          {
+            "title": "Challenges the status quo and encourages risk-taking",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Questions existing practices and suggests innovative solutions"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Works with the team to challenge the status quo, identifies & implements better ways of doing things"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Empowers teams and recognizes innovation and risk-taking"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Encourages teams and coaches them to challenge conventional ways and to draw learnings from high-risk experiments"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Learns from failures; sponsors initiatives that celebrate risk-taking"
+              }
+            ]
+          },
+          {
+            "title": "Encourages innovation by actively seeking diverse ideas and promoting experimentation",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Enthusiastically participates in new experiments"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Regularly consults different teams to learn and gather new ideas"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Provides resources for experiments and guides team in implementation by sharing feedback"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Leverages synergies between different teams to experiment with emerging technologies and new processes"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Drives innovation and experimentation as a core element of the organizational culture"
+              }
+            ]
+          },
+          {
+            "title": "Embraces, explores and drives digital solutions in all aspects of work ",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Learns and uses digital tools to improve efficiency and quality of work"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Leads integration of digital technologies into own area of work"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Builds capabilities of teams on emerging digital technologies"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Seeks different avenues by looking at external digital trends and provides required tools & resources to the team"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Acts as a patron for “digital-first” strategies, ensuring that people across levels embrace digital solutions to achieve competitive edge"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "competencyName": "DEVELOP AND EMPOWER PEOPLE",
+        "competencyPoints": [
+          {
+            "title": "Drives team's development to build a healthy talent pipeline",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Actively participates in development activities to enhance skills"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Identifies team capabilities, conducts developmental conversations and provides them with learning resources"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Role models people development & coaches team members leading to building a robust talent pipeline"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Take risk with internal ABG talent, develop talent through coaching & provides exposures/roles in other ABG businesses"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Displays a coaching style of leadership and thus builds a robust and sustainable succession pipeline"
+              }
+            ]
+          },
+          {
+            "title": "Delegates effectively and empowers team members actively",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Takes accountability for tasks and seeks learning opportunities"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Delegates effectively, sets clear expectations, assigns tasks and responsibilities based on individuals' capabilities"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Empowers team, facilitates open dialogues, listens carefully, and ensures everyone is heard"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Empowers teams to take initiative, make decisions, and drive impact"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Ensures decentralized decision-making, and accountability for outcomes"
+              }
+            ]
+          },
+          {
+            "title": "Walks the talk through habits, practices and language that reflect respect for people, Group Values & Executive norms",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Imbibes & demonstrates ABG Group Values"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Uses language that reflects respect for people, recognizes and reinforces ABG values in daily interactions and decision-making processes"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Rewards members who exhibit Group Values and addresses instances of Value violation as per ABG norms"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Role models the ABG values and inspires others through self conduct"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Embeds respect for people, Group Values, & Group Purpose into the fabric of the organization"
+              }
+            ]
+          },
+          {
+            "title": "Builds and leads diverse, multigenerational teams",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Harnesses the strength of the team by bringing out the best in others and themselves"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Brings together diverse people and leverages their unique strengths to deliver outcomes"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Implements initiatives that promote diverse teams; leads multi-generational teams"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Builds multi generational, diverse teams"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Builds a culture where leaders listen with empathy and authenticity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "competencyName": "CHAMPION CUSTOMER TO CREATE VALUE",
+        "competencyPoints": [
+          {
+            "title": "Anticipates and shapes customers' stated and unstated needs and behaviors",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Proactively seeks input from various customers to understand their needs"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Engages with customers, understands customer segment needs and clarifies them for the team"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Understands various customer segments and their needs, aligns team’s efforts towards addressing the same"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Partners with various customer segments to co-create solutions and strategies that address their needs"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Makes strategic investments based on changing customer needs /preferences and create new segments for sustainable value creation"
+              }
+            ]
+          },
+          {
+            "title": "Focuses on enhancing customer service and experience",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Provides exceptional customer service consistently and strives to find ways to enhance it"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Builds relationships with the customer to strengthen partnership; reviews team's outcomes and progress to ensure optimal customer satisfaction"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Creates strong strategies to significantly enhance customer delight and build competitive advantage"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Encourages teams to create opportunities to differentiate the brand through unique customer experiences"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Integrates customer insights into strategic plans and enhance customer experience at the organizational level"
+              }
+            ]
+          },
+          {
+            "title": "Builds long-term relationships with customers on the foundation of trust",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Establishes trust with customers by addressing their concerns and responding promptly"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Engages with customers to strengthen relationships and provides regular insights to the team"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Focuses on means to deepen customer relationships, fostering trust and loyalty"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Acts as a trusted advisor to foster loyalty and long-term partnerships with customers "
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Sponsors initiatives to strengthen ABG's credibility, enhance customer relationship and provide exceptional customer service"
+              }
+            ]
+          },
+          {
+            "title": "Creates value for customers in a way that respects and preserves the well-being of our people and planet",
+            "behaviors": [
+              {
+                "jobBand": "JB 9-11",
+                "level": "Fostering Individual Excellence",
+                "description": "Actively seeks ways to minimize environmental impact in daily tasks, and takes keen interest in the areas of sustainability"
+              },
+              {
+                "jobBand": "JB 6-8",
+                "level": "Elevating Team Excellence",
+                "description": "Integrates sustainable practices into daily operations and decision-making"
+              },
+              {
+                "jobBand": "JB 4-5",
+                "level": "Elevating Functional Excellence",
+                "description": "Identifies opportunities for reducing environmental impact and promoting social responsibility; participates in industry wide initiatives"
+              },
+              {
+                "jobBand": "JB 1-3",
+                "level": "Championing Organizational Excellence",
+                "description": "Drives initiatives and allocates resources to create products, services, and processes that are sustainable and aligned with ABG's ESG goals"
+              },
+              {
+                "jobBand": "BD-BH/Exec",
+                "level": "Enterprise Builder",
+                "description": "Sets ESG goals for the organization; engages with customers, influences industry leaders and policy makers to advocate for sustainable practices"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
