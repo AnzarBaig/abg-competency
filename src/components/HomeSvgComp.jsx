@@ -12,7 +12,7 @@ const SVGComponent = (props) => {
     <svg
       style={{
         width: "40vw",
-        height: "100%",
+        height: "75vh",
         // position: "absolute",
         top: 0,
         left: "-0.1vh",
