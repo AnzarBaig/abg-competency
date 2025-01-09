@@ -3,7 +3,7 @@ import { ArrowRightIcon } from '@/components/ui/arrow-right'
 import { useRouter } from 'next/router'
 
 
-function index() {
+function Index() {
   const router = useRouter()
 
   const handleClick = () => {
@@ -24,4 +24,4 @@ function index() {
   )
 }
 
-export default index
+export default Index
