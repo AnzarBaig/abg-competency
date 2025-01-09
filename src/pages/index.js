@@ -16,9 +16,11 @@ function Index() {
   return (
 
     <>
-      <HomeSvgComp />
-      <div className='flex flex-row items-center justify-center' onClick={() => handleClick()}>
-        <ArrowRightIcon name={"Click here to know more about Competencies"} />
+      <div className="flex flex-col space-y-8">
+        <HomeSvgComp />
+        <div className='flex flex-row items-center justify-center' onClick={() => handleClick()}>
+          <ArrowRightIcon name={"Click here to know more about Competencies"} />
+        </div>
       </div>
     </>
   )
