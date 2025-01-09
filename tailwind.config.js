@@ -22,6 +22,19 @@ module.exports = {
 				asliRed: "#AB1F24",
 				halkaRed: "#FFF4F4",
 
+				asliPink: "#AA336A",
+				halkaPink: "#FBEFE6",
+
+				asliOrange: "#F2733226",
+				halkaOrange: "#FFF5F0",
+
+				asliYellow: "#F2C94C",
+				halkaYellow: "#FFF9E6",
+
+				asliBeige: "#F2F2F2",
+				halkaBeige: "#FFFFFF",
+
+
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {

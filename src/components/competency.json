@@ -2,6 +2,8 @@
     "competencyFramework": [
       {
         "competencyName": "ADAPT AND RESPOND PROACTIVELY",
+        "themeColor": ["asliRed", "halkaRed"],
+        "competencyIcon": "/first.png",
         "competencyPoints": [
           {
             "title": "Is flexible and embraces change wholeheartedly",
@@ -127,6 +129,8 @@
       },
       {
         "competencyName": "COLLABORATE AND PARTNER TO INSPIRE TRUST",
+        "themeColor": ["asliPink", "halkaPink"],
+         "competencyIcon": "/sec.png",
         "competencyPoints": [
           {
             "title": "Values diverse perspectives, engages in difficult conversations with respect and fosters an inclusive workplace culture",
@@ -252,6 +256,8 @@
       },
       {
         "competencyName": "INNOVATE TO GROW AND EXCEL",
+        "themeColor": ["asliOrange", "halkaOrange"],
+         "competencyIcon": "/third.png",
         "competencyPoints": [
           {
             "title": "Drives creative and innovative solutions to resolve business and functional challenges",
@@ -377,6 +383,8 @@
       },
       {
         "competencyName": "DEVELOP AND EMPOWER PEOPLE",
+        "themeColor": ["asliYellow", "halkaYellow"],
+         "competencyIcon": "/fourth.png",
         "competencyPoints": [
           {
             "title": "Drives team's development to build a healthy talent pipeline",
@@ -502,6 +510,8 @@
       },
       {
         "competencyName": "CHAMPION CUSTOMER TO CREATE VALUE",
+        "themeColor": ["asliBeige", "halkaBeige"],
+        "competencyIcon": "/five.png",
         "competencyPoints": [
           {
             "title": "Anticipates and shapes customers' stated and unstated needs and behaviors",
