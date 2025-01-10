@@ -11,8 +11,8 @@ const SVGComponent = (props) => {
   return (
     <svg
       style={{
-        width: "40vw",
-        height: "75vh",
+        width: "48vw",
+        height: "80vh",
         // position: "absolute",
         top: 0,
         left: "-0.1vh",
