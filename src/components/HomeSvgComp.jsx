@@ -2,10 +2,20 @@ import * as React from "react";
 import { useRouter } from "next/router";
 
 const SVGComponent = (props) => {
+  const slugArray = [
+    "ADAPT AND RESPOND PROACTIVELY",
+    "COLLABORATE AND PARTNER TO INSPIRE TRUST",
+    "INNOVATE TO GROW AND EXCEL",
+    "DEVELOP AND EMPOWER PEOPLE",
+    "CHAMPION CUSTOMER TO CREATE VALUE",
+  ];
+
   const router = useRouter();
 
-  const handlePathClick = () => {
-    router.push("/competency");
+  const handlePathClick = (slug) => {
+    // console.log("slug" + "/competency/" + slug);
+
+    router.push("/competency/?q=" + slug);
   };
 
   return (
@@ -59,7 +69,7 @@ const SVGComponent = (props) => {
         stroke="#111111"
         strokeWidth={1.5}
         strokeMiterlimit={10}
-        onClick={() => handlePathClick()}
+        onClick={() => handlePathClick(slugArray[0])}
         style={{ cursor: "pointer" }}
       />
       <path
@@ -84,7 +94,7 @@ const SVGComponent = (props) => {
         stroke="#111111"
         strokeWidth={1.5}
         strokeMiterlimit={10}
-        onClick={() => handlePathClick()}
+        onClick={() => handlePathClick(slugArray[1])}
         style={{ cursor: "pointer" }}
       />
       <path
@@ -109,7 +119,7 @@ const SVGComponent = (props) => {
         stroke="#111111"
         strokeWidth={1.5}
         strokeMiterlimit={10}
-        onClick={() => handlePathClick()}
+        onClick={() => handlePathClick(slugArray[2])}
         style={{ cursor: "pointer" }}
       />
       <path
@@ -134,7 +144,7 @@ const SVGComponent = (props) => {
         stroke="#111111"
         strokeWidth={1.5}
         strokeMiterlimit={10}
-        onClick={() => handlePathClick()}
+        onClick={() => handlePathClick(slugArray[3])}
         style={{ cursor: "pointer" }}
       />
       <path
@@ -159,7 +169,7 @@ const SVGComponent = (props) => {
         stroke="#111111"
         strokeWidth={1.5}
         strokeMiterlimit={10}
-        onClick={() => handlePathClick()}
+        onClick={() => handlePathClick(slugArray[4])}
         style={{ cursor: "pointer" }}
       />
       <path
