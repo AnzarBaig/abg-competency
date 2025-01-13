@@ -11,14 +11,18 @@ import { useRouter } from "next/router";
 const themeColorMap = {
   asliRed: "#AB1F24",
   halkaRed: "#FFF4F4",
+
   asliPink: "#DB212F",
-  halkaPink: "#FCEEED",
+  halkaPink: "#FBE9E9",
+
   asliOrange: "#F37333",
-  halkaOrange: "#FFF4F4",
+  halkaOrange: "#FDEEE6",
+
   asliYellow: "#FBB03B",
-  halkaYellow: "#FFF9EF",
+  halkaYellow: "#FFF6E9",
+
   asliBeige: "#FDD422",
-  halkaBeige: "#FFFCED",
+  halkaBeige: "#FFFAE7",
 };
 
 export default function Home() {

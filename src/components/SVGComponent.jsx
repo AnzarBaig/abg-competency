@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useStore } from "@/store/store";
+import { Badge } from "@/components/ui/badge";
 
 const SVGComponent = ({ props: behaviors, colors }) => {
   // Get colors from props or use defaults
@@ -42,7 +43,6 @@ const SVGComponent = ({ props: behaviors, colors }) => {
       );
     }
   };
-
   return (
     <div
       className={`relative flex ${
@@ -150,17 +150,34 @@ const SVGComponent = ({ props: behaviors, colors }) => {
 
       {selectedTitle.selectedTitle && !selectedBand ? (
         <div className="flex flex-col items-start justify-center w-full mb-32">
-          <ul className="w-6/12 mt-2 list-disc">
+          <div className="w-8/12">
             {behaviors?.map((desc) => (
-              <li
-                className="list-disc text-sm text-gray-800 mb-3"
+              <div
+                className="flex items-center mb-3 space-x-8"
                 key={desc.description}
               >
-                {/* {console.log("desc", desc)} */}
-                {desc.description}
-              </li>
+                <div className="flex-shrink-0 w-16">
+                  <Badge
+                    variant="outline"
+                    style={{
+                      backgroundColor: secondaryColor,
+                      borderColor: primaryColor,
+                      color: primaryColor,
+                      whiteSpace: "nowrap",
+                      minWidth: "48px",
+                      display: "inline-block",
+                    }}
+                    className="text-xs px-2 text-center"
+                  >
+                    {desc.jobBand}
+                  </Badge>
+                </div>
+                <span className="text-sm text-gray-800 ml-4 flex-grow w-full">
+                  {desc.description}
+                </span>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       ) : null}
     </div>
