@@ -150,10 +150,10 @@ const SVGComponent = ({ props: behaviors, colors }) => {
 
       {selectedTitle.selectedTitle && !selectedBand ? (
         <div className="flex flex-col items-start justify-center w-full mb-32">
-          <div className="w-8/12">
+          <div className="w-9/12">
             {behaviors?.map((desc) => (
               <div
-                className="flex items-center mb-3 space-x-8"
+                className="flex items-center mb-3 space-x-10"
                 key={desc.description}
               >
                 <div className="flex-shrink-0 w-16">
@@ -164,7 +164,7 @@ const SVGComponent = ({ props: behaviors, colors }) => {
                       borderColor: primaryColor,
                       color: primaryColor,
                       whiteSpace: "nowrap",
-                      minWidth: "48px",
+                      minWidth: "85px",
                       display: "inline-block",
                     }}
                     className="text-xs px-2 text-center"
