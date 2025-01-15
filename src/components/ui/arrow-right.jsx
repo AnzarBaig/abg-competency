@@ -27,11 +27,11 @@ const ArrowRightIcon = ({ name }) => {
 
   return (
     <div
-      className="cursor-pointer select-none p-2 hover:bg-halkaRed/90 bg-halkaRed text-asliRed border border-asliRed rounded-xl transition-colors duration-200 flex items-center justify-center"
+      className="cursor-pointer select-none p-2 rounded-xl transition-colors duration-200 flex items-center justify-center"
       onMouseEnter={() => controls.start("animate")}
       onMouseLeave={() => controls.start("normal")}
     >
-      {name ? <span className="mr-2">{name}</span> : null}
+      {name ? <span className="mr-2 font-semibold">{name}</span> : null}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="28"
