@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import * as React from "react";
 const SVGComponent = (props) => {
-  const [width, setWidth] = React.useState("60vw");
+  const [width, setWidth] = React.useState("78vw");
   const slugArray = [
     "ADAPT AND RESPOND PROACTIVELY",
     "COLLABORATE AND PARTNER TO INSPIRE TRUST",
