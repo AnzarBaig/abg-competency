@@ -28,7 +28,7 @@ const SVGComponent = (props) => {
     if (windowWidth < 768) {
       setWidth("90vw");
     } else {
-      setWidth("60vw");
+      setWidth("70vw");
     }
   }, [width]);
   console.log("width", width);
