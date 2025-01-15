@@ -10,12 +10,19 @@ const SVGComponent = ({ props: behaviors, colors }) => {
 
   const selectedTitle = useStore();
   const [selectedBand, setSelectedBand] = useState(null);
+  const [height, setHeight] = useState(null);
 
   useEffect(() => {
     if (behaviors && behaviors.some((b) => b.jobBand === defaultBand)) {
       setSelectedBand(defaultBand);
     }
   }, [behaviors]);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setHeight(window.innerWidth > 768 ? "50vh" : "auto");
+    }
+  }, []);
 
   const fillColor = (jobBand) => {
     const color = selectedBand === jobBand && behaviors ? "white" : "black";
@@ -53,7 +60,7 @@ const SVGComponent = ({ props: behaviors, colors }) => {
         <svg
           style={{
             width: "50vw",
-            height: window.innerWidth > 768 ? "50vh" : "auto",
+            height: height,
           }}
           viewBox="0 0 700 688"
           fill="none"
