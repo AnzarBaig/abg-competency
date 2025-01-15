@@ -694,7 +694,7 @@ export default function Home() {
                   variant={
                     selectedTitle === point.title ? "secondary" : "outline"
                   }
-                  className="min-h-24 py-3 text-sm md:text-[0.85rem] whitespace-normal transition-colors duration-200"
+                  className="min-h-24 py-3 text-sm md:text-xs whitespace-normal transition-colors duration-200"
                   style={{
                     backgroundColor:
                       selectedTitle === point.title
