@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="w-full bg-black h-16 ">
       <div className="flex items-center justify-start md:justify-center lg:justify-start h-full md:ml-32">
         <Link href="/" className="flex items-center">
-          <Image src={"/ABG.png"} width={60} height={60} />
+          <Image src={"/ABG.png"} width={84} height={69} />
         </Link>
       </div>
     </nav>

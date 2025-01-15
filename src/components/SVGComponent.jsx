@@ -45,15 +45,15 @@ const SVGComponent = ({ props: behaviors, colors }) => {
   };
   return (
     <div
-      className={`relative flex ${
+      className={`relative flex md:flex-row flex-col md:items-start items-center ${
         selectedTitle.selectedTitle ? "justify-between" : "justify-center"
       }`}
     >
-      <div className="relative">
+      <div className="relative md:mb-0 mb-4">
         <svg
           style={{
             width: "50vw",
-            height: "50vh",
+            height: window.innerWidth > 768 ? "50vh" : "auto",
           }}
           viewBox="0 0 700 688"
           fill="none"
@@ -149,7 +149,7 @@ const SVGComponent = ({ props: behaviors, colors }) => {
       ) : null}
 
       {selectedTitle.selectedTitle && !selectedBand ? (
-        <div className="flex flex-col items-start justify-center w-full mb-32">
+        <div className="flex flex-col md:items-start items-center justify-center w-full mb-32">
           <div className="w-9/12">
             {behaviors?.map((desc) => (
               <div

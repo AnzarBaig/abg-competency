@@ -19,6 +19,10 @@ const SVGComponent = (props) => {
   };
 
   React.useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
     const windowWidth = window.innerWidth;
 
     if (windowWidth < 768) {
