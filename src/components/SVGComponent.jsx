@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useStore } from "@/store/store";
 import { Badge } from "@/components/ui/badge";
+import competency from "@/components/competency.json";
 
 const SVGComponent = ({ props: behaviors, colors }) => {
-  // Get colors from props or use defaults
+  const data = competency.competencyFramework;
+
   const primaryColor = colors?.primary || "#AB1F24";
   const secondaryColor = colors?.secondary || "#FFF4F4";
   const defaultBand = "";
@@ -11,6 +13,7 @@ const SVGComponent = ({ props: behaviors, colors }) => {
   const selectedTitle = useStore();
   const [selectedBand, setSelectedBand] = useState(null);
   const [height, setHeight] = useState(null);
+  const [jbPoints, setJbPoints] = useState([]);
 
   useEffect(() => {
     if (behaviors && behaviors.some((b) => b.jobBand === defaultBand)) {
@@ -25,12 +28,19 @@ const SVGComponent = ({ props: behaviors, colors }) => {
   }, []);
 
   const fillColor = (jobBand) => {
-    const color = selectedBand === jobBand && behaviors ? "white" : "black";
-    return color;
+    if (behaviors && selectedBand === jobBand) return "white";
+    if (!behaviors && jbPoints.length > 0 && jbPoints[0].jobBand === jobBand)
+      return "white";
+    return "black";
   };
-
   const getFillColor = (jobBand) => {
-    if (!behaviors) return secondaryColor;
+    if (!behaviors) {
+      // Check if the jobBand matches jbPoints when no behaviors are present
+      if (jbPoints.length > 0 && jbPoints[0].jobBand === jobBand) {
+        return primaryColor;
+      }
+      return secondaryColor;
+    }
     const isBandInProps = behaviors.some((b) => b.jobBand === jobBand);
     if (selectedBand === jobBand && isBandInProps) {
       return primaryColor;
@@ -43,13 +53,45 @@ const SVGComponent = ({ props: behaviors, colors }) => {
     return behaviors.find((b) => b.jobBand === jobBand);
   };
 
+  const getBehaviorsByBand = (jobBand) => {
+    const selectedCompetency = data.find(
+      (competency) =>
+        competency.competencyName === selectedTitle.selectedCompetency
+    );
+
+    if (!selectedCompetency) return [];
+
+    // Flatten all behaviors that match the job band
+    const behaviors = selectedCompetency.competencyPoints.reduce(
+      (acc, point) => {
+        const matchingBehavior = point.behaviors.find(
+          (b) => b.jobBand === jobBand
+        );
+        if (matchingBehavior) {
+          acc.push(matchingBehavior);
+        }
+        return acc;
+      },
+      []
+    );
+
+    return behaviors;
+  };
+
   const handlePathClick = (jobBand) => {
     if (getBehaviorByBand(jobBand)) {
       setSelectedBand((prevBand) =>
         prevBand === jobBand ? defaultBand : jobBand
       );
+    } else {
+      setJbPoints((prevPoints) =>
+        prevPoints.length > 0 && prevPoints[0].jobBand === jobBand
+          ? []
+          : getBehaviorsByBand(jobBand)
+      );
     }
   };
+
   return (
     <div
       className={`relative flex md:flex-row flex-col md:items-start items-center ${
@@ -150,6 +192,26 @@ const SVGComponent = ({ props: behaviors, colors }) => {
                   </li>
                 </ul>
               </li>
+            </ul>
+          </div>
+        </div>
+      ) : null}
+
+      {!selectedTitle.selectedTitle && jbPoints.length > 0 ? (
+        <div className="flex flex-col md:items-start items-center justify-center w-full mb-32">
+          <div className="w-9/12">
+            <h2
+              className="text-lg font-bold mb-4"
+              style={{ color: primaryColor }}
+            >
+              {jbPoints[0].jobBand} | {jbPoints[0].level}
+            </h2>
+            <ul className="list-disc pl-8 space-y-3">
+              {jbPoints.map((point, index) => (
+                <li key={index} className="text-sm text-gray-800">
+                  {point.description}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
