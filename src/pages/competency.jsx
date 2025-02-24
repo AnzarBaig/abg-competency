@@ -188,7 +188,7 @@ export default function Home() {
                   ? "default"
                   : "outline"
               }
-              className="h-auto py-2 text-sm whitespace-normal transition-colors duration-100"
+              className="h-auto py-2 text-sm whitespace-normal transition-colors duration-100 hover:opacity-50 "
               style={{
                 backgroundColor:
                   selectedCompetency === comp.competencyName
@@ -247,7 +247,7 @@ export default function Home() {
                   variant={
                     selectedTitle === point.title ? "secondary" : "outline"
                   }
-                  className="min-h-24 py-3 text-sm md:text-xs whitespace-normal transition-colors duration-200"
+                  className="min-h-24 py-3 text-sm md:text-xs whitespace-normal transition-colors duration-200 hover:opacity-50"
                   style={{
                     backgroundColor:
                       selectedTitle === point.title

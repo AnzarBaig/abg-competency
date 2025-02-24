@@ -17,6 +17,17 @@ module.exports = {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			keyframes: {
+				ripple: {
+				  to: {
+					transform: 'scale(4)',
+					opacity: 0,
+				  },
+				},
+			  },
+			  animation: {
+				ripple: 'ripple 600ms linear',
+			  },
 			colors: {
 
 				asliRed: "#AB1F24",
