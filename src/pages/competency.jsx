@@ -181,30 +181,22 @@ export default function Home() {
           const colors = getCompetencyColors(comp.competencyName);
           return (
             <Button
-              key={comp.competencyName}
-              onClick={() => handleCompetencyClick(comp.competencyName)}
-              variant={
-                selectedCompetency === comp.competencyName
-                  ? "default"
-                  : "outline"
-              }
-              className="h-auto py-2 text-sm whitespace-normal transition-colors duration-100 hover:opacity-50 "
-              style={{
-                backgroundColor:
-                  selectedCompetency === comp.competencyName
-                    ? colors.primary
-                    : colors.secondary,
-                borderColor: "transparent",
-                color:
-                  selectedCompetency === comp.competencyName
-                    ? "white"
-                    : "black",
-                fontWeight:
-                  selectedCompetency === comp.competencyName ? "500" : "400",
-              }}
-            >
+            onClick={() => handleCompetencyClick(comp.competencyName)}
+            variant={selectedCompetency === comp.competencyName ? "default" : "outline"}
+            className="h-auto py-2 text-sm whitespace-normal transition-all duration-200 hover:opacity-80"
+            style={{
+              backgroundColor:
+                selectedCompetency === comp.competencyName ? colors.primary : colors.secondary,
+              borderColor: "transparent",
+              color: selectedCompetency === comp.competencyName ? "white" : "black",
+              fontWeight: selectedCompetency === comp.competencyName ? "500" : "400",
+              transition: "background-color 0.3s ease-in-out, color 0.3s ease-in-out",
+            }}
+          >
+            <span className="inline-block transition-transform duration-200 hover:scale-110">
               {comp.competencyName}
-            </Button>
+            </span>
+          </Button>
           );
         })}
       </div>
