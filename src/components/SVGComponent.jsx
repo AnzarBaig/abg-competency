@@ -109,12 +109,27 @@ const SVGComponent = ({ props: behaviors, colors }) => {
           xmlns="http://www.w3.org/2000/svg"
         >
           {/* JB 9-11 */}
-          <path
+          {/* <path
             d="M699.167 687.5H0.832553L64.1727 568.5H635.827L699.167 687.5Z"
             fill={getFillColor("JB 9-11")}
             stroke={primaryColor}
             onClick={() => handlePathClick("JB 9-11")}
             style={{ cursor: "pointer" }}
+          /> */}
+
+          <path
+            d="M699.167 687.5H0.832553L64.1727 568.5H635.827L699.167 687.5Z"
+            fill={getFillColor("JB 9-11")}
+            stroke={primaryColor}
+            onClick={() => handlePathClick("JB 9-11")}
+            style={{
+              cursor: "pointer",
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) =>
+              e.target.setAttribute("transform", "scale(1.02)")
+            }
+            onMouseLeave={(e) => e.target.setAttribute("transform", "scale(1)")}
           />
 
           {/* JB 6-8 */}
@@ -123,7 +138,14 @@ const SVGComponent = ({ props: behaviors, colors }) => {
             fill={getFillColor("JB 6-8")}
             stroke={primaryColor}
             onClick={() => handlePathClick("JB 6-8")}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) =>
+              e.target.setAttribute("transform", "scale(1.02)")
+            }
+            onMouseLeave={(e) => e.target.setAttribute("transform", "scale(1)")}
           />
 
           {/* JB 4-5 */}
@@ -132,7 +154,14 @@ const SVGComponent = ({ props: behaviors, colors }) => {
             fill={getFillColor("JB 4-5")}
             stroke={primaryColor}
             onClick={() => handlePathClick("JB 4-5")}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) =>
+              e.target.setAttribute("transform", "scale(1.02)")
+            }
+            onMouseLeave={(e) => e.target.setAttribute("transform", "scale(1)")}
           />
 
           {/* JB 1-3 */}
@@ -141,7 +170,14 @@ const SVGComponent = ({ props: behaviors, colors }) => {
             fill={getFillColor("JB 1-3")}
             stroke={primaryColor}
             onClick={() => handlePathClick("JB 1-3")}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) =>
+              e.target.setAttribute("transform", "scale(1.02)")
+            }
+            onMouseLeave={(e) => e.target.setAttribute("transform", "scale(1)")}
           />
 
           {/* BD-BH/Exec */}
@@ -150,7 +186,14 @@ const SVGComponent = ({ props: behaviors, colors }) => {
             fill={getFillColor("BD-BH/Exec")}
             stroke={primaryColor}
             onClick={() => handlePathClick("BD-BH/Exec")}
-            style={{ cursor: "pointer" }}
+            style={{
+              cursor: "pointer",
+              transition: "transform 0.3s ease-in-out",
+            }}
+            onMouseEnter={(e) =>
+              e.target.setAttribute("transform", "scale(1.02)")
+            }
+            onMouseLeave={(e) => e.target.setAttribute("transform", "scale(1)")}
           />
 
           <path
